@@ -1,7 +1,7 @@
 const BriefcaseIcon = () => (
   <svg
-    width="20"
-    height="20"
+    width="22"
+    height="22"
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
@@ -13,6 +13,20 @@ const BriefcaseIcon = () => (
   </svg>
 );
 
+const ArrowIcon = () => (
+  <svg
+    width="18"
+    height="18"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+  >
+    <path d="M5 12h14" />
+    <path d="m13 6 6 6-6 6" />
+  </svg>
+);
+
 const Experience = () => {
   return (
     <section className="section section-dark" id="experience">
@@ -20,7 +34,12 @@ const Experience = () => {
         <div className="section-heading">
           <p className="section-label">04 / EXPERIENCE</p>
 
-          <h2>Where I've been learning.</h2>
+          <h2>Ready to gain real-world experience.</h2>
+
+          <p>
+            I'm currently looking for an opportunity to take my
+            skills beyond the classroom and grow as a developer.
+          </p>
         </div>
 
         <div className="timeline">
@@ -33,30 +52,43 @@ const Experience = () => {
               <div className="timeline-top">
                 <div>
                   <p className="timeline-company">
-                    MaqMinds
+                    Currently Seeking
                   </p>
 
-                  <h3>MERN Stack Intern</h3>
+                  <h3>Software Development Internship</h3>
                 </div>
 
                 <span className="timeline-date">
-                  Internship
+                  Open to Opportunities
                 </span>
               </div>
 
               <p>
-                Worked with modern web development technologies
-                and strengthened practical skills in the MERN
-                stack by developing and working on full-stack
-                applications.
+                As a Computer Science student and aspiring Full
+                Stack MERN Developer, I'm looking for an internship
+                where I can gain hands-on industry experience,
+                contribute to real-world projects, and learn from
+                experienced developers.
+              </p>
+
+              <p>
+                I'm eager to apply my knowledge of React, Node.js,
+                Express.js and MongoDB while continuing to improve
+                my development and problem-solving skills in a
+                professional environment.
               </p>
 
               <div className="experience-tags">
                 <span>React</span>
                 <span>Node.js</span>
-                <span>Express</span>
+                <span>Express.js</span>
                 <span>MongoDB</span>
               </div>
+
+              <a href="#contact" className="internship-btn">
+                Let's Connect
+                <ArrowIcon />
+              </a>
             </div>
           </div>
         </div>

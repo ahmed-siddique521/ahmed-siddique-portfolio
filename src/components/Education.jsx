@@ -20,30 +20,74 @@ const Education = () => {
           <p className="section-label">05 / EDUCATION</p>
 
           <h2>My academic journey.</h2>
+
+          <p>
+            My educational journey from pre-engineering to
+            computer science.
+          </p>
         </div>
 
-        <div className="education-card">
-          <div className="education-icon">
-            <GraduationIcon />
+        <div className="education-list">
+          <div className="education-card">
+            <div className="education-icon">
+              <GraduationIcon />
+            </div>
+
+            <div className="education-content">
+              <div className="education-top">
+                <p className="education-label">
+                  Bachelor of Science
+                </p>
+
+                <span className="education-year">
+                  2024 – 2028
+                </span>
+              </div>
+
+              <h3>Computer Science</h3>
+
+              <p className="education-university">
+                University of Management and Technology (UMT),
+                Lahore
+              </p>
+
+              <p className="education-description">
+                Building a strong foundation in programming,
+                algorithms, data structures, software engineering,
+                web development and computer science fundamentals.
+              </p>
+            </div>
           </div>
 
-          <div>
-            <p className="education-label">
-              Bachelor of Science
-            </p>
+          <div className="education-card">
+            <div className="education-icon">
+              <GraduationIcon />
+            </div>
 
-            <h3>Computer Science</h3>
+            <div className="education-content">
+              <div className="education-top">
+                <p className="education-label">
+                  Higher Secondary School Certificate
+                </p>
 
-            <p className="education-university">
-              University of Management and Technology (UMT),
-              Lahore
-            </p>
+                <span className="education-year">
+                  2021 – 2023
+                </span>
+              </div>
 
-            <p className="education-description">
-              Building a strong foundation in programming,
-              algorithms, data structures, software engineering,
-              web development and computer science fundamentals.
-            </p>
+              <h3>FSc Pre-Engineering</h3>
+
+              <p className="education-university">
+                KIPS College
+              </p>
+
+              <p className="education-description">
+                Completed FSc Pre-Engineering with a focus on
+                mathematics, physics and chemistry, providing a
+                strong foundation for pursuing computer science
+                and technology.
+              </p>
+            </div>
           </div>
         </div>
       </div>

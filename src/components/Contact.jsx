@@ -70,13 +70,13 @@ const Contact = () => {
           href="mailto:your-email@example.com"
           className="contact-email"
         >
-          your-email@example.com
+          ahmedsiddique521@gmail.com
           <ArrowIcon />
         </a>
 
         <div className="contact-socials">
           <a
-            href="https://github.com/"
+            href="https://github.com/ahmed-siddique521"
             target="_blank"
             rel="noreferrer"
           >
@@ -85,7 +85,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/ahmed-siddique-127b04289/"
             target="_blank"
             rel="noreferrer"
           >
@@ -93,7 +93,7 @@ const Contact = () => {
             LinkedIn
           </a>
 
-          <a href="mailto:your-email@example.com">
+          <a href="mailto:ahmedsiddique521@gmail.com">
             <MailIcon />
             Email
           </a>
