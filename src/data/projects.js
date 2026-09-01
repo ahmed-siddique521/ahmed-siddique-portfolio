@@ -12,7 +12,7 @@ export const projects = [
       "MongoDB",
       "Web Speech API",
     ],
-    live: "#",
+    live: "https://siraj-web-based-quran-platform.vercel.app/",
     github: "#",
   },
 
